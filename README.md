@@ -33,8 +33,7 @@ git push origin main
  # Agregar remoto (después de crear el repo en GitHub)
 git remote add origin URL_DEL_REPO
  
- https://github.com/jugarcia1791-hub/TRABAJO-FINAL-HC1.git
-
+ 
 git init (iniciar)
 
 # Ver todas las ramas locales
