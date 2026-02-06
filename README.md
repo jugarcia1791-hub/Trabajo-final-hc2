@@ -60,8 +60,13 @@ mirar ubicacion actual:
 pwd
 ir a carpeta seleccionada:
 cd archivo destino
-06/02/26
+
+# 06/02/26
+
 creacion del index
 -header
 -barra de navegacion
 -body
+
+#comando para instalar tailwind
+-npm install tailwindcss @tailwindcss/cli
