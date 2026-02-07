@@ -69,4 +69,10 @@ creacion del index
 -body
 
 #comando para instalar tailwind
--npm install tailwindcss @tailwindcss/cli
+-Integracion con Tailwindcss
+npm install tailwindcss @tailwindcss/cli
+
+src/input.css
+@import "tailwindcss";
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch (compilacion en vivo)
+npx serve . (server en vivo)
