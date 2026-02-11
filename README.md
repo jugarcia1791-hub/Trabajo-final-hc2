@@ -35,7 +35,7 @@ src/input.css
 
 ---
 
-npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch (compilar css )
 
 # Agregar remoto (después de crear el repo en GitHub)
 
@@ -76,3 +76,11 @@ src/input.css
 @import "tailwindcss";
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch (compilacion en vivo)
 npx serve . (server en vivo)
+
+#07/02/26
+
+<!-- En cada página, cambia manualmente la clase "active" -->
+<nav>
+    <a href="index.html" class="{{ 'active' if page == 'home' }}">Inicio</a>
+    <a href="blog.html" class="{{ 'active' if page == 'blog' }}">Blog</a>
+</nav>
