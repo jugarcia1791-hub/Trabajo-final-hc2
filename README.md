@@ -84,3 +84,4 @@ npx serve . (server en vivo)
     <a href="index.html" class="{{ 'active' if page == 'home' }}">Inicio</a>
     <a href="blog.html" class="{{ 'active' if page == 'blog' }}">Blog</a>
 </nav>
+# 11/02/26
