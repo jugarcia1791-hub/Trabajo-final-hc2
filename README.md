@@ -35,7 +35,7 @@ src/input.css
 
 ---
 
-npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch (compilar css )
+npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch (compilar css )
 
 # Agregar remoto (después de crear el repo en GitHub)
 
