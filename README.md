@@ -34,8 +34,8 @@ src/input.css
 @import "tailwindcss";
 
 ---
-
-npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch (compilar css )
+npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch
+ (compilar css )
 
 # Agregar remoto (después de crear el repo en GitHub)
 
@@ -84,4 +84,5 @@ npx serve . (server en vivo)
     <a href="index.html" class="{{ 'active' if page == 'home' }}">Inicio</a>
     <a href="blog.html" class="{{ 'active' if page == 'blog' }}">Blog</a>
 </nav>
-# 11/02/26
+# 18/02/26
+se agregan cambios a la estreuctura de el proyecto, se agregan imagenes para la pagina principal y su contenido
