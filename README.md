@@ -86,3 +86,60 @@ npx serve . (server en vivo)
 </nav>
 # 18/02/26
 se agregan cambios a la estreuctura de el proyecto, se agregan imagenes para la pagina principal y su contenido
+
+21/02/26
+stilo
+
+<style>
+      .campo-obligatorio {
+        margin: 15px 0;
+        position: relative;
+      }
+
+      label {
+        cursor: pointer;
+        display: inline-block;
+        padding-left: 30px;
+        position: relative;
+      }
+
+      label:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 1px;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background: white;
+      }
+
+      input[type="checkbox"] {
+        opacity: 0;
+        position: absolute;
+      }
+
+      input[type="checkbox"]:checked + label:before {
+        background: #4caf50;
+        border-color: #4caf50;
+      }
+
+      input[type="checkbox"]:checked + label:after {
+        content: "";
+        position: absolute;
+        left: 6px;
+        top: 6px;
+        width: 8px;
+        height: 8px;
+        border: solid white;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+      }
+
+      .error-message {
+        color: #d32f2f;
+        font-size: 0.85em;
+        margin-top: 5px;
+      }
+    </style>
